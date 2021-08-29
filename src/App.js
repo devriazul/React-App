@@ -1,31 +1,17 @@
 import React, { Component } from 'react';
 import './App.css';
-import Person from './Components/Person'
+import Book from './Components/Book';
 
-//Functional Components
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <h1>Hello World!</h1>
-//       <Person />
-//     </div>
-//   );
-
-// }
-
-//Class components
+//State
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Hello World!</h1>
-        <Person name="Rahim" age="30" >I am info of person</Person>
-        <Person name="Karim" age="20" />
-        <Person name="Jasim" age="10" />
-        <Person name="Heron" age="31" />
-        <Person name="Mahin" age="33" />
+        <h1>Book List</h1>
+        <Book bookName="1984" writer="George Orwell" />
+        <Book bookName="The Acst" writer="Dan" />
+        <Book bookName="Eastern" writer="Johan" />
       </div>
     );
   }
