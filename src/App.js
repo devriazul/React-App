@@ -21,7 +21,11 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Hello World!</h1>
-        <Person />
+        <Person name="Rahim" age="30" >I am info of person</Person>
+        <Person name="Karim" age="20" />
+        <Person name="Jasim" age="10" />
+        <Person name="Heron" age="31" />
+        <Person name="Mahin" age="33" />
       </div>
     );
   }
